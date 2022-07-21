@@ -12,6 +12,9 @@ ul, {
   margin: 0; 
   padding-left: 0;
 }
+img {
+  display: block;
+}
 body {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
@@ -85,12 +88,12 @@ body {
 .header-list{
   display: flex;
   align-items: center;
+  margin-left: auto;
   gap: 50px;
 }
 .header-connect{
   display: flex;
   align-items: center;
-  margin-left: 300px;
   gap: 50px;
 }
 .header-nav .header-link {
@@ -160,8 +163,9 @@ body {
   background-color: #2f303a;
 }
 
-.hero-content{
-  padding: 200px 280px;
+.hero-section{
+display: flex;
+  align-items: center;
 }
 .hero-title {
   font-weight: 900;
