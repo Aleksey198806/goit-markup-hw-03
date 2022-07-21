@@ -30,6 +30,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+/*------Header-----*/
 /*logo*/
 .logo-web {
   font-family: "Raleway", sans-serif;
@@ -40,15 +41,6 @@ body {
   color: var(--accent-text-color);
 }
 
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-  text-decoration: none;
-}
 .header-logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -65,12 +57,42 @@ body {
   color: var(--accent-text-color);
 }
 
-/*-----Шапка-----*/
 .header {
   background-color: #fff;
-  
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+.header-logo{
+  margin-right: 93px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+.header-list{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header-connect{
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  gap: 50px;
+}
 .header-nav .header-link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -151,16 +173,19 @@ body {
   color: #ffffff;
   padding: 200px 280px;
 }
+.hero-button{
+  display: block;
+  align-items: center;
+  margin-top: 30px;
+  margin: auto;
+}
 .hero-button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: block;
-  margin-top: 30px;
-  margin: 0 auto;
-  align-items: center;
+
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-text-color);
