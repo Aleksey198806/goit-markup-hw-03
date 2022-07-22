@@ -44,6 +44,7 @@ body {
 /*----------STUDIO PAGE-----------*/
 .title {
   margin: 0 0 50px;
+
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -72,6 +73,7 @@ p {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+
   background-color: var(--first-bcg-color);
   border-bottom: 1px solid #ececec;
 }
@@ -99,6 +101,7 @@ p {
 .header-link {
   padding-top: 32px;
   padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -122,6 +125,7 @@ p {
 .header-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -142,6 +146,7 @@ p {
 .hero-title {
   margin: 0 auto 30px;
   max-width: 696px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -155,6 +160,7 @@ p {
   min-width: 221px;
   padding: 10px 32px;
   margin: 0 auto;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -182,6 +188,7 @@ p {
 
 .benefits-subtitle {
   margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -255,6 +262,7 @@ p {
 .basement-logo {
   display: inline-block;
   margin-bottom: 20px;
+
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -273,6 +281,7 @@ p {
 .basement-text {
   display: inline-block;
   margin-bottom: 9px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -282,6 +291,7 @@ p {
 .basement-contacts {
   display: inline-block;
   margin-bottom: 9px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -294,13 +304,13 @@ p {
 
 /*----------PORTFOLIO PAGE-----------*/
 /*----------EXAMPLES------------*/
-.works-buttons {
+.portfolio-buttons {
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 
-.works-btn {
+.portfolio-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -318,18 +328,18 @@ p {
   margin: 0 auto 56px;
 }
 
-.works-btn:hover,
-.works-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   color: var(--first-font-btn-color);
   background-color: var(--first-bcg-btn-color);
 }
-.works-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.works-item {
+.portfolio-item {
   width: 370px;
   display: block;
   text-align: center;
@@ -337,7 +347,7 @@ p {
   border: 1px solid #eeeeee;
 }
 
-.works-subtitle {
+.portfolio-subtitle {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -346,17 +356,17 @@ p {
   color: var(--titles-color);
 }
 
-.works-subtitle:hover,
-.works-subtitle:focus {
+.portfolio-subtitle:hover,
+.portfolio-subtitle:focus {
   color: var(--first-bcg-btn-color);
 }
-.works-text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.works-text:hover,
-.works-text:focus {
+.portfolio-text:hover,
+.portfolio-text:focus {
   color: var(--first-bcg-btn-color);
 }
