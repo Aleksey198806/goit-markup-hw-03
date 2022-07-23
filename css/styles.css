@@ -144,6 +144,13 @@ img {
   background-color: var(--sec-bcg-color);
   padding: 200px 0;
 }
+.overlay {
+  max-width: 1600px;
+  height: ;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+}
 
 .hero-title {
   margin: 0 auto 30px;
